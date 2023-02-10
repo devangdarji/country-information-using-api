@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    /* background-color: rgba(135, 137, 246, 0.847); */
+    background-image: url('1087800.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh ;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 5px;
+    text-align: center;
+    border: 3px solid rgba(255, 128, 55, 0.847) ;
+    height: auto;
+    width: 300px ;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bolder;
+    overflow: auto;
+    background-color: rgb(120, 103, 190);
+}
+
+#container:hover{
+   cursor:crosshair;
+   
+}
+
+.footer{
+    display: inline;
+}
