@@ -30,8 +30,12 @@ body{
 }
 
 #container:hover{
-   cursor:crosshair;
+   cursor:text;
    
+}
+
+body{
+    cursor:crosshair;
 }
 
 .footer{
